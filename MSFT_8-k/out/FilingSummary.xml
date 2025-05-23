@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FilingSummary>
+  <Version>3.25.1</Version>
+  <ProcessingTime/>
+  <ReportFormat>none</ReportFormat>
+  <ContextCount>4</ContextCount>
+  <ElementCount>22</ElementCount>
+  <EntityCount>1</EntityCount>
+  <FootnotesReported>false</FootnotesReported>
+  <SegmentCount>3</SegmentCount>
+  <ScenarioCount>0</ScenarioCount>
+  <TuplesReported>false</TuplesReported>
+  <UnitCount>0</UnitCount>
+  <MyReports>
+    <Report instance="msft-20250430.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>100000 - Document - Document and Entity Information</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.microsoft.com/20250430/taxonomy/role/Role_DocumentDocumentAndEntityInformation</Role>
+      <ShortName>Document and Entity Information</ShortName>
+      <MenuCategory>Cover</MenuCategory>
+      <Position>1</Position>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>All Reports</LongName>
+      <ReportType>Book</ReportType>
+      <ShortName>All Reports</ShortName>
+    </Report>
+  </MyReports>
+  <Logs>
+    <Log type="Error">[exception:FileNotFoundError] Instance validation exception: [Errno 2] No such file or directory: '/__xule_resources_dir__/dqcrt-us-2024-ruleset.zip', instance: msft-20250430.htm - msft-20250430.htm 
+Traceback (most recent call last):
+  File "D:\a\Arelle\Arelle\arelle\Validate.py", line 132, in validate
+  File "D:\a\Arelle\Arelle\arelle\ValidateXbrl.py", line 570, in validate
+  File "C:\Program Files\Arelle\plugin\xule\__init__.py", line 1067, in xuleValidate
+    runXule(_cntlr, options, val.modelXbrl, xule_validator['map_name'], is_validator=True)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Arelle\plugin\xule\__init__.py", line 959, in runXule
+    rule_set.open(rule_set_location, open_packages=not getattr(options, 'xule_bypass_packages', False))
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Arelle\plugin\xule\XuleRuleSet.py", line 120, in open
+    file_object = self._get_rule_set_file_object()
+  File "C:\Program Files\Arelle\plugin\xule\XuleRuleSet.py", line 159, in _get_rule_set_file_object
+    file_object = file_source.file(self.location, binary=True)[0]
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\a\Arelle\Arelle\arelle\FileSource.py", line 653, in file
+  File "D:\a\Arelle\Arelle\arelle\FileSource.py", line 860, in openFileStream
+FileNotFoundError: [Errno 2] No such file or directory: '/__xule_resources_dir__/dqcrt-us-2024-ruleset.zip' - msft-20250430.htm </Log>
+  </Logs>
+  <InputFiles>
+    <File doctype="8-K" isOnlyDei="true" isUsgaap="true" original="msft-20250430.htm">msft-20250430.htm</File>
+    <File>msft-20250430.xsd</File>
+  </InputFiles>
+  <SupplementalFiles/>
+  <BaseTaxonomies>
+    <BaseTaxonomy items="28">http://xbrl.sec.gov/dei/2024</BaseTaxonomy>
+  </BaseTaxonomies>
+  <HasPresentationLinkbase>false</HasPresentationLinkbase>
+  <HasCalculationLinkbase>false</HasCalculationLinkbase>
+</FilingSummary>
