@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xbrl
+  xmlns="http://www.xbrl.org/2003/instance"
+  xmlns:dei="http://xbrl.sec.gov/dei/2024"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:msft="http://www.microsoft.com/20250430"
+  xmlns:us-gaap="http://fasb.org/us-gaap/2024"
+  xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:schemaRef xlink:href="msft-20250430.xsd" xlink:type="simple"/>
+    <context id="C_807756e4-4ddb-4d94-b6ab-8b3467e7d495">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000789019</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">msft:NotesThreePointOneTwoFivePercentDueDecemberSixTwentyTwentyEightMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2025-04-30</startDate>
+            <endDate>2025-04-30</endDate>
+        </period>
+    </context>
+    <context id="C_a17dcbb1-52c3-49bf-92c7-1f97cca1d03c">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000789019</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2025-04-30</startDate>
+            <endDate>2025-04-30</endDate>
+        </period>
+    </context>
+    <context id="C_ed61d179-636f-4e22-9c8b-59102d8db563">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000789019</identifier>
+        </entity>
+        <period>
+            <startDate>2025-04-30</startDate>
+            <endDate>2025-04-30</endDate>
+        </period>
+    </context>
+    <context id="C_30b7085a-ec42-44b2-935e-439cf27a766f">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000789019</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">msft:NotesTwoPointSixTwoFivePercentDueMayTwoTwentyThirtyThreeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2025-04-30</startDate>
+            <endDate>2025-04-30</endDate>
+        </period>
+    </context>
+    <dei:AmendmentFlag
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_f9850f33-fd35-4e85-9620-a97f5ffd457b">false</dei:AmendmentFlag>
+    <dei:EntityCentralIndexKey
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_f9bb96ad-c18d-46a3-9d03-87521212458f">0000789019</dei:EntityCentralIndexKey>
+    <dei:DocumentType
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_48ea3a06-eeab-471b-9f08-449c51cd7798">8-K</dei:DocumentType>
+    <dei:DocumentPeriodEndDate
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_1a8f7212-9b66-4f43-8ae8-52d1a997cd25">2025-04-30</dei:DocumentPeriodEndDate>
+    <dei:EntityRegistrantName
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_08238d3d-62f7-49a2-87ab-ead59febaf0c">Microsoft Corporation</dei:EntityRegistrantName>
+    <dei:EntityIncorporationStateCountryCode
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_d66935a0-673b-4db1-8fca-4c03a4134f18">DE</dei:EntityIncorporationStateCountryCode>
+    <dei:EntityFileNumber
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_56174a5d-8de5-4456-9019-ab883b1418d2">001-37845</dei:EntityFileNumber>
+    <dei:EntityTaxIdentificationNumber
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_586983a4-aa6d-47fd-8c9e-7e25b21a9877">91-1144442</dei:EntityTaxIdentificationNumber>
+    <dei:EntityAddressAddressLine1
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_d425cd83-2f2c-48e7-b0ef-b9487b233372">One Microsoft Way</dei:EntityAddressAddressLine1>
+    <dei:EntityAddressCityOrTown
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_2212c244-b847-4f46-8853-65fc3609dae3">Redmond</dei:EntityAddressCityOrTown>
+    <dei:EntityAddressStateOrProvince
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_4f910855-e28b-435c-b5cc-283634601bbe">WA</dei:EntityAddressStateOrProvince>
+    <dei:EntityAddressPostalZipCode
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_ce21bc4a-a2ad-406e-8ba0-657d6fa654eb">98052-6399</dei:EntityAddressPostalZipCode>
+    <dei:CityAreaCode
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_6ca01b14-c973-4495-ba0b-e308dfc56a6c">425</dei:CityAreaCode>
+    <dei:LocalPhoneNumber
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_cce637b1-030f-4a89-bac7-6d33ca035825">882-8080</dei:LocalPhoneNumber>
+    <dei:WrittenCommunications
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_ab273965-e21f-4dae-b666-61e0b9244cb8">false</dei:WrittenCommunications>
+    <dei:SolicitingMaterial
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_110629f3-9dba-4042-8870-4610079dafa6">false</dei:SolicitingMaterial>
+    <dei:PreCommencementTenderOffer
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_47d82aa2-cb79-4564-8975-82b8da27db6d">false</dei:PreCommencementTenderOffer>
+    <dei:PreCommencementIssuerTenderOffer
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_076b5cde-6372-491d-bd30-469ead5a073b">false</dei:PreCommencementIssuerTenderOffer>
+    <dei:Security12bTitle
+      contextRef="C_a17dcbb1-52c3-49bf-92c7-1f97cca1d03c"
+      id="F_90a2aa2b-069a-431b-9289-956d06186026">Common stock, $0.00000625 par value per share</dei:Security12bTitle>
+    <dei:TradingSymbol
+      contextRef="C_a17dcbb1-52c3-49bf-92c7-1f97cca1d03c"
+      id="F_ff724dc0-c97a-44b6-94e7-bc16e4a380b1">MSFT</dei:TradingSymbol>
+    <dei:SecurityExchangeName
+      contextRef="C_a17dcbb1-52c3-49bf-92c7-1f97cca1d03c"
+      id="F_80771a21-114f-4a5a-a942-722817fdbbda">NASDAQ</dei:SecurityExchangeName>
+    <dei:Security12bTitle
+      contextRef="C_807756e4-4ddb-4d94-b6ab-8b3467e7d495"
+      id="F_daf47d33-5292-41ac-b0ef-59231ebfb698">3.125% Notes due 2028</dei:Security12bTitle>
+    <dei:TradingSymbol
+      contextRef="C_807756e4-4ddb-4d94-b6ab-8b3467e7d495"
+      id="F_c6c1e18e-6dba-4972-88e7-c9e6a2df776d">MSFT</dei:TradingSymbol>
+    <dei:SecurityExchangeName
+      contextRef="C_807756e4-4ddb-4d94-b6ab-8b3467e7d495"
+      id="F_315f6816-8d84-4d80-84ff-7e6ba125287b">NASDAQ</dei:SecurityExchangeName>
+    <dei:Security12bTitle
+      contextRef="C_30b7085a-ec42-44b2-935e-439cf27a766f"
+      id="F_ceeeeb4b-0fb7-4454-8186-56b93c611b79">2.625% Notes due 2033</dei:Security12bTitle>
+    <dei:TradingSymbol
+      contextRef="C_30b7085a-ec42-44b2-935e-439cf27a766f"
+      id="F_b0a5b81a-daa7-48e0-bf97-cf1b2c562e41">MSFT</dei:TradingSymbol>
+    <dei:SecurityExchangeName
+      contextRef="C_30b7085a-ec42-44b2-935e-439cf27a766f"
+      id="F_888fd8dc-d772-4c27-9e75-7fc3b8e4c28e">NASDAQ</dei:SecurityExchangeName>
+    <dei:EntityEmergingGrowthCompany
+      contextRef="C_ed61d179-636f-4e22-9c8b-59102d8db563"
+      id="F_7604394c-a2d2-4e04-ae02-4770d6ce9175">false</dei:EntityEmergingGrowthCompany>
+</xbrl>
